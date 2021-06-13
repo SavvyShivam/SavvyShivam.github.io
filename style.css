@@ -477,9 +477,9 @@ footer.copyright{
         filter:invert(1);    ;
         -webkit-filter:invert(1)    ;
     }
-    section {
+    /* section {
         padding: 100px 30px;
-    }
+    } */
     .banner{
         padding:150px 50px 100px;
     }
