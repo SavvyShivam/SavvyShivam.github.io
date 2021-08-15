@@ -38,7 +38,7 @@ section{
 }
 .banner h3{
     color: #efff;
-    font-size: 1.5cm;
+    font-size: 1cm;
     font-weight: 500;
 }
 
@@ -58,66 +58,95 @@ section{
 
 /* Creating About me Layout in CSS */
 
+.content{
+    display:flex;
+    justify-content: space-between;
+    
+}
 .heading{
-    width: 100%;
+    width:100%;
     text-align: center;
     margin-bottom: 30px;
-    color: #111;
+    color:#111;
 }
-
 .heading p{
     font-style: italic;
-    font-size: 14px;
+    font-size:14px;
 }
-
 .heading h2{
     font-size: 3em;
-    color: #009e66;
-
+    color:#009e66;
 }
-
-.content{
-    display: flex;
-    justify-content: space-between;
-}
-
 .contentBx{
-    padding-left: 40px;
+    padding-left:40px;
     text-align: justify;
 }
-
-.proPic{
-    width: 300px;
-    height: 300px;
-    border-top-left-radius: 30%;
-    border-bottom-right-radius: 30%;
-}
-
 .contentBx h2{
     font-weight: 300;
     margin-bottom: 10px;
 }
-
+.proPic{
+    width:300px;
+    height:350px;
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+}
 .heading.bottom{
-    display: flex;
+    display:flex;
     justify-content: space-between;
-    flex-direction: row;
+    flex-direction:row;
     align-items: center;
 }
-
 .btn.round{
-    border-radius:50px;
+   border-radius:50px;    ;
+   -webkit-border-radius:50px    ;
+   -moz-border-radius:50px    ;
+   -ms-border-radius:50px    ;
+   -o-border-radius:50px    ;
+}
+.info{
+    display:flex;
+    justify-content: space-between;
 }
 .bt{
-    margin-top: 20px;
+    margin-top: 20px;;
 }
-
 .w50{
-   min-width: 25%; 
+    min-width:25%;
+}
+img{
+    max-width:100%;
 }
 
-img{
-    max-width: 100% ;
+
+
+.services{
+    background:#111;
+}
+.heading.white p{
+    color:#fff;
+}
+.services .content{
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    flex-direction:row;
+}
+.services .content .servicesBx{
+    color:#fff;
+    background:#161616;
+    padding:30px 15px;
+    max-width: 360px;
+    margin:10px 15px;
+    text-align: center;
+}
+.services .content .servicesBx:hover{
+    border-bottom:2px solid #009e66;
+    cursor:pointer;
+}
+.services .content .servicesBx .fa{
+    margin-bottom: 10px;
+    color:#009e66;
 }
 
 /* Creating Logo & Menu's Header Using CSS */
@@ -410,8 +439,11 @@ footer.copyright{
 
 /* Making Responsive Layout */
 
+
 @media (max-width: 991px)
-{
+{   
+    
+
     header,
     header.sticky{
         padding:20px 50px;
@@ -477,9 +509,9 @@ footer.copyright{
         filter:invert(1);    ;
         -webkit-filter:invert(1)    ;
     }
-    /* section {
+    section {
         padding: 100px 30px;
-    } */
+    }
     .banner{
         padding:150px 50px 100px;
     }
