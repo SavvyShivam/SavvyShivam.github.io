@@ -3,7 +3,7 @@
 Responsive Portfolio Website
 
 
-checkout here - https://savvyshivam.github.io/
+checkout My portfolio by clicking here - https://savvyshivam.github.io/
 
 
 
