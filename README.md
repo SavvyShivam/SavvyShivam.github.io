@@ -1,6 +1,6 @@
 # SavvyShivam.github.io
 
-Responsive Portfolio website using HTML,CSS and JavaScript
+Responsive Portfolio website using HTML,CSS and JavaScript.
 
 
 checkout My portfolio by clicking here - https://savvyshivam.github.io/
